@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LAKSHMIKANTH REDDY G"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-17 11:51:39 AM"/>
+        <attribute name="created" value="TEFLU0hNSUtBTlRIIFJFRERZIEc7REVTS1RPUC0wUzZKMDRLOzIwMjItMDItMTY7MDk6MzY6MjMgUE07MzcwNQ=="/>
+        <attribute name="edited" value="TEFLU0hNSUtBTlRIIFJFRERZIEc7REVTS1RPUC0wUzZKMDRLOzIwMjItMDItMTY7MDk6NTk6MDAgUE07MTszODEz"/>
+        <attribute name="edited" value="U2hhbmtlcjtERVNLVE9QLVJUNkdWOEE7MjAyMi0wMi0xNzsxMTo1MTozOSBBTTsxOzMxNzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Program To Print Fibonacci Series&quot;" newline="True"/>
+            <output expression="&quot;Enter Which Number You Want To Find&quot;" newline="True"/>
+            <declare name="number, a, b, n, i" type="Integer" array="False" size=""/>
+            <input variable="number"/>
+            <assign variable="a" expression="0"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="i" expression="0"/>
+            <for variable="i" start="1" end="number" direction="inc" step="1">
+                <assign variable="n" expression="a+b"/>
+                <assign variable="a" expression="b"/>
+                <assign variable="b" expression="n"/>
+            </for>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
