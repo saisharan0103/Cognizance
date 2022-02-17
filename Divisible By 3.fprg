@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Shanker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-17 11:26:37 AM"/>
+        <attribute name="created" value="U2hhbmtlcjtERVNLVE9QLVJUNkdWOEE7MjAyMi0wMi0xNzsxMTowOTo0NiBBTTszMDYz"/>
+        <attribute name="edited" value="U2hhbmtlcjtERVNLVE9QLVJUNkdWOEE7MjAyMi0wMi0xNzsxMToyNjozNyBBTTsxOzMxNzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter The Number&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n%3 = 0">
+                <then>
+                    <output expression="&quot;Congratulations The Given Number Is DIvisible By 3 &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;We are sorry &#13;&#10;Your Input Was Not Divisible By 3&#13;&#10;Please Try gain&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
